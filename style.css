@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    text-align: center; 
+    height: 100vh; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenitore {
+    width: 80%; 
+    height: 90%; 
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
+
+header {
+    padding: 20px; 
+    background: transparent;
+    text-align: center; 
+}
+
+header .Logo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+header .Logo img {
+    width: 300px;
+    height: auto; 
+}
+
+header h1 {
+    font-size: 30px; 
+    color: rgb(18, 221, 18); 
+    margin-top: 0; 
+}
+
+nav {
+    display: flex;
+    background-color:rgb(18, 221, 18);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: auto; 
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav button {
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.ListaScooters {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.Scooter {
+    background: rgba(255, 255, 255, 0.0);
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+.Scooter h2 {
+    font-size: 30px; 
+    margin-bottom: 5px; 
+    display: flex; 
+    align-items: center;
+}
+
+.scooter-checkbox {
+    margin-right: 10px;
+}
+
+.batteria {
+    width: 100%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
